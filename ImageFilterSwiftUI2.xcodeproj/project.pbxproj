@@ -11,6 +11,10 @@
 		EF7BB94F252A8332004907AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB94E252A8332004907AB /* ContentView.swift */; };
 		EF7BB951252A8336004907AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7BB950252A8336004907AB /* Assets.xcassets */; };
 		EF7BB954252A8336004907AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7BB953252A8336004907AB /* Preview Assets.xcassets */; };
+		EF7BB960252AB628004907AB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB95F252AB628004907AB /* Home.swift */; };
+		EF7BB964252AB645004907AB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB963252AB645004907AB /* HomeViewModel.swift */; };
+		EF7BB967252B4559004907AB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB966252B4559004907AB /* ImagePicker.swift */; };
+		EF7BB96A252B5062004907AB /* FilteredImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB969252B5062004907AB /* FilteredImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		EF7BB950252A8336004907AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7BB953252A8336004907AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF7BB955252A8336004907AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7BB95F252AB628004907AB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EF7BB963252AB645004907AB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EF7BB966252B4559004907AB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EF7BB969252B5062004907AB /* FilteredImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		EF7BB94B252A8332004907AB /* ImageFilterSwiftUI2 */ = {
 			isa = PBXGroup;
 			children = (
+				EF7BB95E252AB617004907AB /* View */,
+				EF7BB95D252AB5BE004907AB /* ViewModel */,
+				EF7BB95C252AB5A4004907AB /* Model */,
 				EF7BB94C252A8332004907AB /* ImageFilterSwiftUI2App.swift */,
 				EF7BB94E252A8332004907AB /* ContentView.swift */,
 				EF7BB950252A8336004907AB /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				EF7BB953252A8336004907AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF7BB95C252AB5A4004907AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BB969252B5062004907AB /* FilteredImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF7BB95D252AB5BE004907AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BB963252AB645004907AB /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF7BB95E252AB617004907AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BB95F252AB628004907AB /* Home.swift */,
+				EF7BB966252B4559004907AB /* ImagePicker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7BB96A252B5062004907AB /* FilteredImage.swift in Sources */,
 				EF7BB94F252A8332004907AB /* ContentView.swift in Sources */,
+				EF7BB960252AB628004907AB /* Home.swift in Sources */,
+				EF7BB967252B4559004907AB /* ImagePicker.swift in Sources */,
 				EF7BB94D252A8332004907AB /* ImageFilterSwiftUI2App.swift in Sources */,
+				EF7BB964252AB645004907AB /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
